@@ -1,0 +1,25 @@
+{
+  "name": "jest-matcher-called-on",
+  "description": "Jest Custom Matcher Asserts the Context the Spy is Called On",
+  "keywords": "Jest, Custom, Matcher, Spy, Test, Unit, Context, Called",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "github:joechapan/jest-matcher-called-on",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "precommit": "npm run test && npm run lint",
+    "prepush": "npm run test && npm run lint"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3"
+  }
+}
