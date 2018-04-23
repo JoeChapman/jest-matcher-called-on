@@ -1,4 +1,4 @@
-import calledOnModule from '../../';
+import calledOnModule from '../src';
 import * as utils from 'jest-matcher-utils';
 
 describe('jest-matcher-called-on', () => {
