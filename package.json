@@ -2,7 +2,7 @@
   "name": "jest-matcher-called-on",
   "description": "Jest Custom Matcher Asserts the Context the Spy is Called On",
   "keywords": "Jest, Custom, Matcher, Spy, toHaveBeenCalledOn, calledOn, Test, Unit, Context",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "index.js",
   "repository": "github:joechapan/jest-matcher-called-on",
