@@ -1,5 +1,7 @@
 # Jest Matcher calledOn
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JoeChapman/jest-matcher-called-on.svg)](https://greenkeeper.io/)
+
 A Jest custom matcher that asserts a Spy or Stub was called on a given context, like `sinon.calledOn`
 
 ## Usage
